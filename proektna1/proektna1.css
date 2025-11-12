@@ -1,0 +1,97 @@
+head{
+    color:beige;
+}
+#header {
+    text-align: center;
+    padding: 35px;
+    margin: 0;
+    color:black;
+    background-color:rgb(203, 186, 214);
+    background-size: cover;
+    font-size: 20px;
+    border-color: azure;
+    border-radius: 10px;
+}
+nav{
+    padding:15px;
+}
+.tekst{
+    background-color: rgb(203, 186, 214);
+    border-radius: 10px;
+    padding: 10px;;
+}
+nav a{
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration: none;
+}
+ul{
+    gap:30px;
+    display: flex;
+    list-style:none;
+    justify-content: center;
+    margin: 20px;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    background-image: url('images/Unknown.jpg');
+    background-size: cover;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: rgb(209, 249, 249);
+    text-align: center; 
+}
+p{
+    font-size: x-large;
+    background-size:cover;
+}
+.login{
+    max-width:400px;
+    margin: 90px auto;
+    padding:25px;
+    background-color: rgb(203, 186, 214);
+    border-radius: 10px;
+    text-align: center;
+}
+#loginmessage{
+    font-weight: bold;
+}
+footer{
+    color:rgb(255, 255, 255);
+}
+.question{
+    width: 500px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: rgb(131, 86, 163);
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+.gallery{
+    color:antiquewhite;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding: 20px;
+}
+.slika{
+    overflow: auto;
+    width:600px;
+    height:400px;
+    
+}
+.slika img{
+    width:70%;
+    height:70%;
+    object-fit: cover;
+}
+.likedislike{
+    margin: 7px;
+    cursor: pointer;
+}
